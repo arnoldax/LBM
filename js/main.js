@@ -83,7 +83,8 @@ function initNavigation() {
     const navbar = document.getElementById('navbar');
     
     if (navToggle && navMenu) {
-        navToggle.addEventListener('click', function() {
+        navToggle.addEventListener('click', function(e) {
+            e.stopPropagation();
             navToggle.classList.toggle('active');
             navMenu.classList.toggle('active');
         });
@@ -94,6 +95,14 @@ function initNavigation() {
                 navToggle.classList.remove('active');
                 navMenu.classList.remove('active');
             });
+        });
+        
+        // Fermer le menu en cliquant en dehors
+        document.addEventListener('click', function(e) {
+            if (!navbar.contains(e.target) && navMenu.classList.contains('active')) {
+                navToggle.classList.remove('active');
+                navMenu.classList.remove('active');
+            }
         });
     }
     
