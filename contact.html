@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - LBM | Contactez-nous</title>
+    <meta name="description" content="Contactez LBM pour vos projets en BTP, formation, conseil ou graphisme à Ouagadougou, Burkina Faso.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Cursor Effect -->
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-follower" id="cursorFollower"></div>
+
+    <!-- Navigation Ultra Moderne avec Animations -->
+    <nav class="navbar-ultra" id="navbar">
+        <div class="nav-particles">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+        <div class="nav-gradient-bg"></div>
+        <div class="container">
+            <div class="nav-brand-ultra">
+                <a href="index.html" class="logo-link-ultra">
+                    <div class="logo-container-ultra">
+                        <div class="logo-glow-ultra"></div>
+                        <div class="logo-pulse"></div>
+                        <span class="logo-text-ultra">LBM</span>
+                    </div>
+                    <span class="logo-subtitle-ultra">Lawabienko Benah Management</span>
+                </a>
+            </div>
+            <button class="nav-toggle-ultra" id="navToggle" aria-label="Menu">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            <ul class="nav-menu-ultra" id="navMenu">
+                <li class="nav-item-ultra">
+                    <a href="index.html" class="nav-link-ultra">
+                        <span class="nav-link-text">Accueil</span>
+                        <span class="nav-link-underline"></span>
+                    </a>
+                </li>
+                <li class="nav-item-ultra">
+                    <a href="about.html" class="nav-link-ultra">
+                        <span class="nav-link-text">À propos</span>
+                        <span class="nav-link-underline"></span>
+                    </a>
+                </li>
+                <li class="nav-item-ultra">
+                    <a href="services.html" class="nav-link-ultra">
+                        <span class="nav-link-text">Services</span>
+                        <span class="nav-link-underline"></span>
+                    </a>
+                </li>
+                <li class="nav-item-ultra">
+                    <a href="formations.html" class="nav-link-ultra">
+                        <span class="nav-link-text">Formations</span>
+                        <span class="nav-link-underline"></span>
+                    </a>
+                </li>
+                <li class="nav-item-ultra">
+                    <a href="realisations.html" class="nav-link-ultra">
+                        <span class="nav-link-text">Réalisations</span>
+                        <span class="nav-link-underline"></span>
+                    </a>
+                </li>
+                <li class="nav-item-ultra">
+                    <a href="contact.html" class="nav-link-ultra btn-nav-ultra active">
+                        <span class="btn-glow"></span>
+                        <span class="nav-link-text">Contact</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header Modern -->
+    <section class="page-header-modern">
+        <div class="page-header-bg"></div>
+        <div class="container">
+            <div class="page-header-content">
+                <h1 class="page-title-modern">Contactez-nous</h1>
+                <p class="page-subtitle-modern">Nous sommes là pour répondre à vos questions</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section section-padding">
+        <div class="container">
+            <div class="contact-content">
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper">
+                    <h2 class="section-title">Envoyez-nous un message</h2>
+                    <p class="form-intro">Remplissez le formulaire ci-dessous et nous vous répondrons dans les plus brefs délais.</p>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nom complet *</label>
+                            <input type="text" id="name" name="name" required placeholder="Votre nom complet">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required placeholder="votre@email.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Téléphone</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+226 XX XX XX XX">
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service concerné</label>
+                            <select id="service" name="service">
+                                <option value="">Sélectionnez un service</option>
+                                <option value="btp">BTP et Architecture</option>
+                                <option value="immobilier">Immobilier</option>
+                                <option value="juridique">Conseil Juridique</option>
+                                <option value="gestion">Conseil en Gestion</option>
+                                <option value="formation">Formation Professionnelle</option>
+                                <option value="graphisme">Graphisme Digital</option>
+                                <option value="autre">Autre</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Sujet *</label>
+                            <input type="text" id="subject" name="subject" required placeholder="Objet de votre message">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="6" required placeholder="Décrivez votre projet ou votre demande..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-large">Envoyer le message</button>
+                        <div class="form-message" id="formMessage"></div>
+                    </form>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="contact-info-wrapper">
+                    <h2 class="section-title">Nos Coordonnées</h2>
+                    <div class="contact-info">
+                        <div class="contact-item" data-aos="fade-left">
+                            <div class="contact-icon">
+                                <img src="https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=300&h=300&auto=format&fit=crop&q=80" alt="Adresse">
+                            </div>
+                            <div class="contact-details">
+                                <h4>Adresse</h4>
+                                <p>Kamboinsin<br>Ouagadougou<br>Burkina Faso</p>
+                            </div>
+                        </div>
+                        <div class="contact-item" data-aos="fade-left" data-delay="100">
+                            <div class="contact-icon">
+                                <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=300&h=300&auto=format&fit=crop&q=80" alt="Téléphone">
+                            </div>
+                            <div class="contact-details">
+                                <h4>Téléphones</h4>
+                                <p>
+                                    <a href="tel:+22670081152">+226 70 08 11 52</a><br>
+                                    <a href="tel:+22650238686">+226 50 23 86 86</a><br>
+                                    <a href="tel:+22678743239">+226 78 74 32 39</a><br>
+                                    <a href="tel:+22654852626">+226 54 85 26 26</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="contact-item" data-aos="fade-left" data-delay="200">
+                            <div class="contact-icon">
+                                <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=300&h=300&auto=format&fit=crop&q=80" alt="Email">
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <p><a href="mailto:contact@lawabienko-lbm.com">contact@lawabienko-lbm.com</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item" data-aos="fade-left" data-delay="300">
+                            <div class="contact-icon">
+                                <img src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=300&h=300&auto=format&fit=crop&q=80" alt="Réseaux sociaux">
+                            </div>
+                            <div class="contact-details">
+                                <h4>Réseaux sociaux</h4>
+                                <div class="social-contact">
+                                    <a href="https://instagram.com/lawabienko_lbm" target="_blank" rel="noopener" class="social-btn">
+                                        <span>📷</span> Instagram
+                                    </a>
+                                    <a href="https://facebook.com/lawabienko_lbm" target="_blank" rel="noopener" class="social-btn">
+                                        <span>👍</span> Facebook
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Business Hours -->
+                    <div class="business-hours" data-aos="fade-left" data-delay="400">
+                        <h3>Horaires d'ouverture</h3>
+                        <div class="hours-list">
+                            <div class="hours-item">
+                                <span class="day">Lundi - Vendredi</span>
+                                <span class="time">8h00 - 18h00</span>
+                            </div>
+                            <div class="hours-item">
+                                <span class="day">Samedi</span>
+                                <span class="time">8h00 - 13h00</span>
+                            </div>
+                            <div class="hours-item">
+                                <span class="day">Dimanche</span>
+                                <span class="time">Fermé</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-modern">
+        <div class="container">
+            <div class="footer-content-modern">
+                <div class="footer-section-modern">
+                    <div class="footer-logo">
+                        <span class="logo-text">LBM</span>
+                        <span class="footer-slogan">Bâtir et vous bâtir</span>
+                    </div>
+                    <p>Kamboinsin, Ouagadougou<br>Burkina Faso</p>
+                    <div class="social-links-modern">
+                        <a href="https://instagram.com/lawabienko_lbm" target="_blank" rel="noopener" class="social-link-modern">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                        </a>
+                        <a href="https://facebook.com/lawabienko_lbm" target="_blank" rel="noopener" class="social-link-modern">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section-modern">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="about.html">À propos</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="formations.html">Formations</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section-modern">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="tel:+22670081152">+226 70 08 11 52</a></li>
+                        <li><a href="tel:+22650238686">+226 50 23 86 86</a></li>
+                        <li><a href="mailto:contact@lawabienko-lbm.com">contact@lawabienko-lbm.com</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section-modern">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html#btp">BTP & Architecture</a></li>
+                        <li><a href="services.html#immobilier">Immobilier</a></li>
+                        <li><a href="services.html#juridique">Conseil Juridique</a></li>
+                        <li><a href="services.html#gestion">Conseil en Gestion</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom-modern">
+                <p>&copy; 2025 Lawabienko Benah Management. Tous droits réservés.</p>
+                <p class="developer-signature">by Arnold Technology</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
+

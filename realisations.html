@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Réalisations - LBM | Nos Projets</title>
+    <meta name="description" content="Découvrez les réalisations et projets de LBM dans le BTP, la formation et le conseil.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Cursor Effect -->
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-follower" id="cursorFollower"></div>
+
+    <!-- Navigation Ultra Moderne avec Animations -->
+    <nav class="navbar-ultra" id="navbar">
+        <div class="nav-particles">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+        <div class="nav-gradient-bg"></div>
+        <div class="container">
+            <div class="nav-brand-ultra">
+                <a href="index.html" class="logo-link-ultra">
+                    <div class="logo-container-ultra">
+                        <div class="logo-glow-ultra"></div>
+                        <div class="logo-pulse"></div>
+                        <span class="logo-text-ultra">LBM</span>
+                    </div>
+                    <span class="logo-subtitle-ultra">Lawabienko Benah Management</span>
+                </a>
+            </div>
+            <button class="nav-toggle-ultra" id="navToggle" aria-label="Menu">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            <ul class="nav-menu-ultra" id="navMenu">
+                <li class="nav-item-ultra">
+                    <a href="index.html" class="nav-link-ultra">
+                        <span class="nav-link-text">Accueil</span>
+                        <span class="nav-link-underline"></span>
+                    </a>
+                </li>
+                <li class="nav-item-ultra">
+                    <a href="about.html" class="nav-link-ultra">
+                        <span class="nav-link-text">À propos</span>
+                        <span class="nav-link-underline"></span>
+                    </a>
+                </li>
+                <li class="nav-item-ultra">
+                    <a href="services.html" class="nav-link-ultra">
+                        <span class="nav-link-text">Services</span>
+                        <span class="nav-link-underline"></span>
+                    </a>
+                </li>
+                <li class="nav-item-ultra">
+                    <a href="formations.html" class="nav-link-ultra">
+                        <span class="nav-link-text">Formations</span>
+                        <span class="nav-link-underline"></span>
+                    </a>
+                </li>
+                <li class="nav-item-ultra">
+                    <a href="realisations.html" class="nav-link-ultra active">
+                        <span class="nav-link-text">Réalisations</span>
+                        <span class="nav-link-underline"></span>
+                    </a>
+                </li>
+                <li class="nav-item-ultra">
+                    <a href="contact.html" class="nav-link-ultra btn-nav-ultra">
+                        <span class="btn-glow"></span>
+                        <span class="nav-link-text">Contact</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header Modern -->
+    <section class="page-header-modern">
+        <div class="page-header-bg"></div>
+        <div class="container">
+            <div class="page-header-content">
+                <h1 class="page-title-modern">Nos Réalisations</h1>
+                <p class="page-subtitle-modern">Des projets qui témoignent de notre expertise</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="realisations-stats section-padding">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card" data-aos="zoom-in">
+                    <div class="stat-number" data-target="100">0</div>
+                    <div class="stat-label">Projets Réalisés</div>
+                </div>
+                <div class="stat-card" data-aos="zoom-in" data-delay="100">
+                    <div class="stat-number" data-target="500">0</div>
+                    <div class="stat-label">Personnes Formées</div>
+                </div>
+                <div class="stat-card" data-aos="zoom-in" data-delay="200">
+                    <div class="stat-number" data-target="50">0</div>
+                    <div class="stat-label">Entreprises Accompagnées</div>
+                </div>
+                <div class="stat-card" data-aos="zoom-in" data-delay="300">
+                    <div class="stat-number" data-target="7">0</div>
+                    <div class="stat-label">Domaines d'Expertise</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects by Category -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="section-header-modern">
+                <span class="section-tag">Nos Projets</span>
+                <h2 class="section-title-modern">Nos Réalisations par Catégorie</h2>
+                <p class="section-subtitle-modern">Découvrez nos projets dans chaque domaine d'expertise</p>
+            </div>
+
+            <!-- BTP Projects -->
+            <div class="category-section" id="btp-projects">
+                <div class="category-header-modern">
+                    <div class="category-icon">
+                        <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=300&h=300&auto=format&fit=crop&q=80" alt="BTP">
+                    </div>
+                    <h3 class="category-title-modern">BTP et Architecture</h3>
+                </div>
+                <div class="projects-grid">
+                    <div class="project-card" data-aos="fade-up">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=400&h=300&auto=format&fit=crop&q=80" alt="Construction résidentielle">
+                        </div>
+                        <div class="project-content">
+                            <h4>Construction de Bâtiments Résidentiels</h4>
+                            <p>Réalisation de plusieurs projets résidentiels avec conception architecturale complète et suivi de chantier rigoureux.</p>
+                            <div class="project-tags">
+                                <span class="tag">Construction</span>
+                                <span class="tag">Architecture</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card" data-aos="fade-up" data-delay="100">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=400&h=300&auto=format&fit=crop&q=80" alt="Rénovation">
+                        </div>
+                        <div class="project-content">
+                            <h4>Rénovation de Bâtiments</h4>
+                            <p>Restauration et modernisation de bâtiments anciens avec respect du patrimoine architectural.</p>
+                            <div class="project-tags">
+                                <span class="tag">Rénovation</span>
+                                <span class="tag">Réhabilitation</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card" data-aos="fade-up" data-delay="200">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&auto=format&fit=crop&q=80" alt="Forage">
+                        </div>
+                        <div class="project-content">
+                            <h4>Forages et Installations Hydrauliques</h4>
+                            <p>Réalisation de forages et installation de systèmes d'eau potable pour communautés rurales.</p>
+                            <div class="project-tags">
+                                <span class="tag">Forage</span>
+                                <span class="tag">Hydraulique</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Formation Projects -->
+            <div class="category-section" id="formation-projects">
+                <div class="category-header-modern">
+                    <div class="category-icon">
+                        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=300&h=300&auto=format&fit=crop&q=80" alt="Formations">
+                    </div>
+                    <h3 class="category-title-modern">Formations Professionnelles</h3>
+                </div>
+                <div class="projects-grid">
+                    <div class="project-card" data-aos="fade-up">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=300&auto=format&fit=crop&q=80" alt="Formation GRH">
+                        </div>
+                        <div class="project-content">
+                            <h4>Programme de Formation en GRH</h4>
+                            <p>Formation de plus de 200 professionnels en gestion des ressources humaines avec certification.</p>
+                            <div class="project-tags">
+                                <span class="tag">GRH</span>
+                                <span class="tag">Formation</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card" data-aos="fade-up" data-delay="100">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=400&h=300&auto=format&fit=crop&q=80" alt="Formation Bureautique">
+                        </div>
+                        <div class="project-content">
+                            <h4>Formation Bureautique</h4>
+                            <p>Programme intensif de formation en outils bureautiques pour améliorer la productivité des entreprises.</p>
+                            <div class="project-tags">
+                                <span class="tag">Bureautique</span>
+                                <span class="tag">Productivité</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card" data-aos="fade-up" data-delay="200">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=400&h=300&auto=format&fit=crop&q=80" alt="Design Graphique">
+                        </div>
+                        <div class="project-content">
+                            <h4>Ateliers de Design Graphique</h4>
+                            <p>Formation pratique en création visuelle et communication digitale pour jeunes créateurs.</p>
+                            <div class="project-tags">
+                                <span class="tag">Graphisme</span>
+                                <span class="tag">Digital</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Conseil Projects -->
+            <div class="category-section" id="conseil-projects">
+                <div class="category-header-modern">
+                    <div class="category-icon">
+                        <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=300&h=300&auto=format&fit=crop&q=80" alt="Conseil">
+                    </div>
+                    <h3 class="category-title-modern">Conseil et Accompagnement</h3>
+                </div>
+                <div class="projects-grid">
+                    <div class="project-card" data-aos="fade-up">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=400&h=300&auto=format&fit=crop&q=80" alt="Création d'entreprise">
+                        </div>
+                        <div class="project-content">
+                            <h4>Accompagnement à la Création d'Entreprises</h4>
+                            <p>Support complet pour la création et le développement de plus de 50 entreprises locales.</p>
+                            <div class="project-tags">
+                                <span class="tag">Entrepreneuriat</span>
+                                <span class="tag">Conseil</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card" data-aos="fade-up" data-delay="100">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=400&h=300&auto=format&fit=crop&q=80" alt="Assistance juridique">
+                        </div>
+                        <div class="project-content">
+                            <h4>Assistance Juridique</h4>
+                            <p>Accompagnement juridique et fiscal pour entreprises et particuliers dans leurs démarches.</p>
+                            <div class="project-tags">
+                                <span class="tag">Juridique</span>
+                                <span class="tag">Fiscal</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card" data-aos="fade-up" data-delay="200">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=400&h=300&auto=format&fit=crop&q=80" alt="Gestion immobilière">
+                        </div>
+                        <div class="project-content">
+                            <h4>Gestion Immobilière</h4>
+                            <p>Gestion professionnelle de portefeuilles immobiliers et accompagnement à l'accession à la propriété.</p>
+                            <div class="project-tags">
+                                <span class="tag">Immobilier</span>
+                                <span class="tag">Gestion</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section section-padding alt-bg">
+        <div class="container">
+            <div class="section-header-modern">
+                <span class="section-tag">Témoignages</span>
+                <h2 class="section-title-modern">Ce que nos clients disent</h2>
+                <p class="section-subtitle-modern">Découvrez les retours de nos clients satisfaits</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card" data-aos="fade-up">
+                    <div class="testimonial-content">
+                        <div class="testimonial-quote">"</div>
+                        <p>LBM a transformé notre vision en réalité. Leur accompagnement professionnel et leur expertise ont été déterminants dans le succès de notre projet.</p>
+                        <div class="testimonial-author">
+                            <strong>Entrepreneur</strong>
+                            <span>Client BTP</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card" data-aos="fade-up" data-delay="100">
+                    <div class="testimonial-content">
+                        <div class="testimonial-quote">"</div>
+                        <p>La formation en GRH que j'ai suivie chez LBM m'a ouvert de nouvelles perspectives professionnelles. Un contenu pratique et des formateurs compétents.</p>
+                        <div class="testimonial-author">
+                            <strong>Participante</strong>
+                            <span>Formation GRH</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card" data-aos="fade-up" data-delay="200">
+                    <div class="testimonial-content">
+                        <div class="testimonial-quote">"</div>
+                        <p>Grâce à LBM, j'ai pu créer mon entreprise avec sérénité. Leur support juridique et leur conseil en gestion ont été essentiels.</p>
+                        <div class="testimonial-author">
+                            <strong>Chef d'entreprise</strong>
+                            <span>Accompagnement</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-modern">
+        <div class="cta-bg-gradient"></div>
+        <div class="container">
+            <div class="cta-content-modern">
+                <h2 class="cta-title-modern">Vous avez un projet ?</h2>
+                <p class="cta-subtitle-modern">Rejoignez nos clients satisfaits et réalisez vos ambitions avec LBM</p>
+                <a href="contact.html" class="btn-modern btn-primary-modern btn-large-modern">
+                    <span>Démarrer votre projet</span>
+                    <div class="btn-shine"></div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-modern">
+        <div class="container">
+            <div class="footer-content-modern">
+                <div class="footer-section-modern">
+                    <div class="footer-logo">
+                        <span class="logo-text">LBM</span>
+                        <span class="footer-slogan">Bâtir et vous bâtir</span>
+                    </div>
+                    <p>Kamboinsin, Ouagadougou<br>Burkina Faso</p>
+                    <div class="social-links-modern">
+                        <a href="https://instagram.com/lawabienko_lbm" target="_blank" rel="noopener" class="social-link-modern">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                        </a>
+                        <a href="https://facebook.com/lawabienko_lbm" target="_blank" rel="noopener" class="social-link-modern">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section-modern">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="about.html">À propos</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="formations.html">Formations</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section-modern">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="tel:+22670081152">+226 70 08 11 52</a></li>
+                        <li><a href="tel:+22650238686">+226 50 23 86 86</a></li>
+                        <li><a href="mailto:contact@lawabienko-lbm.com">contact@lawabienko-lbm.com</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section-modern">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html#btp">BTP & Architecture</a></li>
+                        <li><a href="services.html#immobilier">Immobilier</a></li>
+                        <li><a href="services.html#juridique">Conseil Juridique</a></li>
+                        <li><a href="services.html#gestion">Conseil en Gestion</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom-modern">
+                <p>&copy; 2025 Lawabienko Benah Management. Tous droits réservés.</p>
+                <p class="developer-signature">by Arnold Technology</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
+

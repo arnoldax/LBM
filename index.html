@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LBM - Lawabienko Benah Management | Bâtir et vous bâtir</title>
+    <meta name="description" content="LBM est une entreprise pluridisciplinaire spécialisée dans le BTP, le conseil juridique, la formation professionnelle et le graphisme à Ouagadougou, Burkina Faso.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Cursor Effect -->
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-follower" id="cursorFollower"></div>
+
+    <!-- Navigation Ultra Moderne avec Animations -->
+    <nav class="navbar-ultra" id="navbar">
+        <div class="nav-particles">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+        <div class="nav-gradient-bg"></div>
+        <div class="container">
+            <div class="nav-brand-ultra">
+                <a href="index.html" class="logo-link-ultra">
+                    <div class="logo-container-ultra">
+                        <div class="logo-glow-ultra"></div>
+                        <div class="logo-pulse"></div>
+                        <span class="logo-text-ultra">LBM</span>
+                    </div>
+                    <span class="logo-subtitle-ultra">Lawabienko Benah Management</span>
+                </a>
+            </div>
+            <button class="nav-toggle-ultra" id="navToggle" aria-label="Menu">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            <ul class="nav-menu-ultra" id="navMenu">
+                <li class="nav-item-ultra">
+                    <a href="index.html" class="nav-link-ultra active">
+                        <span class="nav-link-text">Accueil</span>
+                        <span class="nav-link-underline"></span>
+                    </a>
+                </li>
+                <li class="nav-item-ultra">
+                    <a href="about.html" class="nav-link-ultra">
+                        <span class="nav-link-text">À propos</span>
+                        <span class="nav-link-underline"></span>
+                    </a>
+                </li>
+                <li class="nav-item-ultra">
+                    <a href="services.html" class="nav-link-ultra">
+                        <span class="nav-link-text">Services</span>
+                        <span class="nav-link-underline"></span>
+                    </a>
+                </li>
+                <li class="nav-item-ultra">
+                    <a href="formations.html" class="nav-link-ultra">
+                        <span class="nav-link-text">Formations</span>
+                        <span class="nav-link-underline"></span>
+                    </a>
+                </li>
+                <li class="nav-item-ultra">
+                    <a href="realisations.html" class="nav-link-ultra">
+                        <span class="nav-link-text">Réalisations</span>
+                        <span class="nav-link-underline"></span>
+                    </a>
+                </li>
+                <li class="nav-item-ultra">
+                    <a href="contact.html" class="nav-link-ultra btn-nav-ultra">
+                        <span class="btn-glow"></span>
+                        <span class="nav-link-text">Contact</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section with 3D Effect -->
+    <section class="hero-modern">
+        <div class="hero-bg-gradient"></div>
+        <div class="hero-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+        <!-- Image Hero: Construction typique de l'Afrique de l'Ouest -->
+        <div class="hero-image-container">
+            <img src="https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=1200&auto=format&fit=crop&q=80" alt="Construction en Afrique de l'Ouest - Burkina Faso" class="hero-image">
+            <div class="hero-image-overlay"></div>
+        </div>
+        <div class="container hero-container">
+            <div class="hero-content-modern">
+                <h1 class="hero-title-modern">
+                    <span class="title-word title-word-1">Bâtir</span>
+                    <span class="title-word title-word-2">et vous</span>
+                    <span class="title-word title-word-3">bâtir</span>
+                </h1>
+                <p class="hero-subtitle-modern">
+                    Des infrastructures durables et des compétences solides pour transformer vos projets en réussites concrètes
+                </p>
+                <div class="hero-buttons-modern">
+                    <a href="services.html" class="btn-modern btn-primary-modern">
+                        <span>Découvrir nos services</span>
+                        <div class="btn-shine"></div>
+                    </a>
+                    <a href="contact.html" class="btn-modern btn-secondary-modern">
+                        <span>Nous contacter</span>
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-modern">
+                        <div class="stat-number" data-target="100">0</div>
+                        <div class="stat-label">Projets réalisés</div>
+                    </div>
+                    <div class="stat-modern">
+                        <div class="stat-number" data-target="500">0</div>
+                        <div class="stat-label">Personnes formées</div>
+                    </div>
+                    <div class="stat-modern">
+                        <div class="stat-number" data-target="7">0</div>
+                        <div class="stat-label">Domaines d'expertise</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- Services Preview with Glassmorphism -->
+    <section class="services-modern section-padding">
+        <div class="container">
+            <div class="section-header-modern">
+                <span class="section-tag">Nos Services</span>
+                <h2 class="section-title-modern">Excellence dans tous les domaines</h2>
+                <p class="section-subtitle-modern">Des solutions complètes pour vos projets</p>
+            </div>
+            <div class="services-grid-modern">
+                <div class="service-card-modern" data-service="1">
+                    <div class="service-card-inner">
+                        <div class="service-icon-modern">
+                            <img src="https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=400&auto=format&fit=crop&q=80" alt="BTP Afrique">
+                            <div class="service-icon-overlay"></div>
+                        </div>
+                        <div class="service-content">
+                            <h3>BTP & Architecture</h3>
+                            <p>Construction, rénovation et conception de plans architecturaux de qualité</p>
+                            <a href="services.html#btp" class="service-link-modern">
+                                <span>En savoir plus</span>
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-card-modern" data-service="2">
+                    <div class="service-card-inner">
+                        <div class="service-icon-modern">
+                            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&auto=format&fit=crop&q=80" alt="Immobilier Afrique">
+                            <div class="service-icon-overlay"></div>
+                        </div>
+                        <div class="service-content">
+                            <h3>Immobilier</h3>
+                            <p>Estimation, location et accompagnement à la propriété</p>
+                            <a href="services.html#immobilier" class="service-link-modern">
+                                <span>En savoir plus</span>
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-card-modern" data-service="3">
+                    <div class="service-card-inner">
+                        <!-- Image: Équipe professionnelle africaine -->
+                        <div class="service-icon-modern">
+                            <img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=400&auto=format&fit=crop&q=80" alt="Conseil professionnel - Équipe africaine">
+                            <div class="service-icon-overlay"></div>
+                        </div>
+                        <div class="service-content">
+                            <h3>Conseil Juridique</h3>
+                            <p>Assistance juridique, fiscal et gestion documentaire</p>
+                            <a href="services.html#juridique" class="service-link-modern">
+                                <span>En savoir plus</span>
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-card-modern" data-service="4">
+                    <div class="service-card-inner">
+                        <!-- Image: Équipe de gestion africaine -->
+                        <div class="service-icon-modern">
+                            <img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=400&auto=format&fit=crop&q=80" alt="Gestion d'équipe - Professionnels africains">
+                            <div class="service-icon-overlay"></div>
+                        </div>
+                        <div class="service-content">
+                            <h3>Conseil en Gestion</h3>
+                            <p>Accompagnement entrepreneurial et coaching professionnel</p>
+                            <a href="services.html#gestion" class="service-link-modern">
+                                <span>En savoir plus</span>
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-card-modern" data-service="5">
+                    <div class="service-card-inner">
+                        <!-- Image: Formation avec participants africains -->
+                        <div class="service-icon-modern">
+                            <img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=400&auto=format&fit=crop&q=80" alt="Formation professionnelle - Participants africains">
+                            <div class="service-icon-overlay"></div>
+                        </div>
+                        <div class="service-content">
+                            <h3>Formations</h3>
+                            <p>Formations professionnelles certifiantes</p>
+                            <a href="formations.html" class="service-link-modern">
+                                <span>En savoir plus</span>
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-card-modern" data-service="6">
+                    <div class="service-card-inner">
+                        <div class="service-icon-modern">
+                            <img src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=400&auto=format&fit=crop&q=80" alt="Graphisme digital">
+                            <div class="service-icon-overlay"></div>
+                        </div>
+                        <div class="service-content">
+                            <h3>Graphisme Digital</h3>
+                            <p>Création visuelle et communication digitale</p>
+                            <a href="services.html#graphisme" class="service-link-modern">
+                                <span>En savoir plus</span>
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission Section with Illustration -->
+    <section class="mission-modern section-padding">
+        <div class="container">
+            <div class="section-header-modern">
+                <span class="section-tag">Notre Mission</span>
+                <h2 class="section-title-modern">Bâtir l'homme avant de bâtir l'ouvrage</h2>
+            </div>
+            <div class="mission-content-modern">
+                <div class="mission-text-modern">
+                    <p class="mission-quote-modern">
+                        "Chez LBM, nous croyons qu'il faut <strong>bâtir l'homme avant de bâtir l'ouvrage</strong>."
+                    </p>
+                    <p class="mission-description-modern">
+                        Nous allions expertise, discipline et innovation pour transformer vos projets en réussites concrètes. 
+                        Que vous soyez un particulier ou un professionnel, nous vous accompagnons dans la réalisation de vos ambitions 
+                        avec des solutions durables et sur mesure.
+                    </p>
+                    <div class="mission-button-container">
+                        <a href="about.html" class="btn-modern btn-outline-modern">
+                            <span>Découvrir notre histoire</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-modern">
+        <div class="cta-bg-gradient"></div>
+        <div class="container">
+            <div class="cta-content-modern">
+                <h2 class="cta-title-modern">Prêt à démarrer votre projet ?</h2>
+                <p class="cta-subtitle-modern">Contactez-nous dès aujourd'hui pour discuter de vos besoins</p>
+                <a href="contact.html" class="btn-modern btn-primary-modern btn-large-modern">
+                    <span>Contactez-nous</span>
+                    <div class="btn-shine"></div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section class="location-section section-padding">
+        <div class="container">
+            <div class="section-header-modern">
+                <span class="section-tag">Où nous trouver</span>
+                <h2 class="section-title-modern">Notre Localisation</h2>
+                <p class="section-subtitle-modern">Venez nous rendre visite à notre bureau</p>
+            </div>
+            <div class="location-content">
+                <div class="location-info">
+                    <div class="location-details">
+                        <div class="location-item" data-aos="fade-right">
+                            <span class="location-icon">
+                                <img src="https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=300&h=300&auto=format&fit=crop&q=80" alt="Adresse">
+                            </span>
+                            <div>
+                                <strong>Adresse</strong>
+                                <p>Kamboinsin<br>Ouagadougou<br>Burkina Faso</p>
+                            </div>
+                        </div>
+                        <div class="location-item" data-aos="fade-right" data-delay="100">
+                            <span class="location-icon">
+                                <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=300&h=300&auto=format&fit=crop&q=80" alt="Téléphone">
+                            </span>
+                            <div>
+                                <strong>Téléphones</strong>
+                                <p>
+                                    <a href="tel:+22670081152">+226 70 08 11 52</a><br>
+                                    <a href="tel:+22650238686">+226 50 23 86 86</a><br>
+                                    <a href="tel:+22678743239">+226 78 74 32 39</a><br>
+                                    <a href="tel:+22654852626">+226 54 85 26 26</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="location-item" data-aos="fade-right" data-delay="200">
+                            <span class="location-icon">
+                                <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=300&h=300&auto=format&fit=crop&q=80" alt="Email">
+                            </span>
+                            <div>
+                                <strong>Email</strong>
+                                <p><a href="mailto:contact@lawabienko-lbm.com">contact@lawabienko-lbm.com</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="location-hours" data-aos="fade-right" data-delay="300">
+                        <h3>Horaires d'ouverture</h3>
+                        <div class="hours-list">
+                            <div class="hours-item">
+                                <span class="day">Lundi - Vendredi</span>
+                                <span class="time">8h00 - 18h00</span>
+                            </div>
+                            <div class="hours-item">
+                                <span class="day">Samedi</span>
+                                <span class="time">8h00 - 13h00</span>
+                            </div>
+                            <div class="hours-item">
+                                <span class="day">Dimanche</span>
+                                <span class="time">Fermé</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="location-map" data-aos="fade-left">
+                    <div class="map-container">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.5!2d-1.5194!3d12.3714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTLCsDIyJzE3LjAiTiAxwrAzMScxMC4wIlc!5e0!3m2!1sfr!2sbf!4v1234567890123!5m2!1sfr!2sbf"
+                            width="100%" 
+                            height="100%" 
+                            style="border:0; border-radius: 20px;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade"
+                            title="Localisation LBM - Kamboinsin, Ouagadougou">
+                        </iframe>
+                        <div class="map-overlay">
+                            <a href="https://www.google.com/maps/search/Kamboinsin,+Ouagadougou,+Burkina+Faso/@12.3714,-1.5194,15z" 
+                               target="_blank" 
+                               rel="noopener" 
+                               class="map-link-btn">
+                                <span>Ouvrir dans Google Maps</span>
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path d="M10 2L12.5 7.5L18 10L12.5 12.5L10 18L7.5 12.5L2 10L7.5 7.5L10 2Z" stroke="currentColor" stroke-width="2" fill="none"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-modern">
+        <div class="container">
+            <div class="footer-content-modern">
+                <div class="footer-section-modern">
+                    <div class="footer-logo">
+                        <span class="logo-text">LBM</span>
+                        <span class="footer-slogan">Bâtir et vous bâtir</span>
+                    </div>
+                    <p>Kamboinsin, Ouagadougou<br>Burkina Faso</p>
+                    <div class="social-links-modern">
+                        <a href="https://instagram.com/lawabienko_lbm" target="_blank" rel="noopener" class="social-link-modern">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                        </a>
+                        <a href="https://facebook.com/lawabienko_lbm" target="_blank" rel="noopener" class="social-link-modern">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section-modern">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="about.html">À propos</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="formations.html">Formations</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section-modern">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="tel:+22670081152">+226 70 08 11 52</a></li>
+                        <li><a href="tel:+22650238686">+226 50 23 86 86</a></li>
+                        <li><a href="mailto:contact@lawabienko-lbm.com">contact@lawabienko-lbm.com</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section-modern">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html#btp">BTP & Architecture</a></li>
+                        <li><a href="services.html#immobilier">Immobilier</a></li>
+                        <li><a href="services.html#juridique">Conseil Juridique</a></li>
+                        <li><a href="services.html#gestion">Conseil en Gestion</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom-modern">
+                <p>&copy; 2025 Lawabienko Benah Management. Tous droits réservés.</p>
+                <p class="developer-signature">by Arnold Technology</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
